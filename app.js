@@ -1,5 +1,5 @@
 const buttonElement = document.querySelectorAll("button")
-// console.log(buttonElement);
+console.log(buttonElement);
 
 const inputFieldEl = document.getElementById("result") 
 
@@ -14,7 +14,6 @@ for (let i = 0; i < buttonElement.length;i++){
 		} else{
 			appendValue(buttonValue);
 		}
-		console.log(buttonElement[i]);
 	})
 }
 
@@ -27,3 +26,4 @@ function calculateResult(){
 function appendValue(buttonValue){
 	inputFieldEl.value += buttonValue
 }
+
